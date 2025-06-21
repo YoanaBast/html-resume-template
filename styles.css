@@ -1,0 +1,26 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.education-degree {
+  font-weight: bold;
+  margin-bottom: 0; /* Reduce bottom margin to zero or a small value */
+  overflow: hidden; /* Keeps date floated right correctly */
+}
+
+.education-university {
+  font-style: italic;
+  margin-top: 2px; /* Reduce top margin to something small like 2px */
+  margin-bottom: 1.5em; /* Keep some space after university */
+  color: #555;
+}
+
+.job-title {
+  margin-bottom: 2px; /* reduce space below job title */
+}
+
+.job-title + p {
+  margin-top: 0; /* remove top margin of company name right after job title */
+  margin-bottom: 10px; /* optional bottom margin for spacing */
+}
