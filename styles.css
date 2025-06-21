@@ -3,24 +3,70 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.education-degree {
-  font-weight: bold;
-  margin-bottom: 0; /* Reduce bottom margin to zero or a small value */
-  overflow: hidden; /* Keeps date floated right correctly */
-}
-
-.education-university {
+.company-name {
   font-style: italic;
-  margin-top: 2px; /* Reduce top margin to something small like 2px */
-  margin-bottom: 1.5em; /* Keep some space after university */
+  margin-top: 2px; /* small top margin */
+  margin-bottom: 1.5em; /* spacing below */
   color: #555;
 }
 
-.job-title {
-  margin-bottom: 2px; /* reduce space below job title */
+
+.education-degree {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #333;
 }
 
-.job-title + p {
-  margin-top: 0; /* remove top margin of company name right after job title */
-  margin-bottom: 10px; /* optional bottom margin for spacing */
+.date {
+  color: #777;
+  float: none; /* remove float if you have it */
+  margin-left: 10px; /* optional, spacing from text */
 }
+
+
+.education-university {
+  font-style: italic;
+  margin-top: 2px; /* small top margin */
+  margin-bottom: 1.5em; /* spacing below */
+  color: #555;
+}
+
+/* Make job-title and date sit on the same line, spaced out */
+.job-title,
+.education-degree {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #333;
+}
+
+
+.job-title + p {
+  margin-top: 0; /* remove top margin on company name */
+  margin-bottom: 10px; /* spacing below company name */
+}
+
+.date {
+  color: #777;
+  float: none; /* remove float if you have it */
+  margin-left: 10px; /* optional, spacing from text */
+}
+
+ul {
+  text-align: justify;
+  padding-left: 20px; /* ensure bullets remain visible */
+}
+
+li {
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
+}
+
