@@ -1,7 +1,8 @@
 h1 {
   font-family: 'Comfortaa', sans-serif;
     color: gray;
-    margin-top: 30px;
+    margin-top: 50px;
+    font-size: 50px;
 
 }
 
@@ -12,6 +13,27 @@ h2 {
     border-bottom: 2px solid #ccc; /* this is the cool line */
     padding-bottom: 5px; /* this is the cool line */
 }
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-info img {
+  height: 220px;
+  margin-right: 10px;
+  border-radius: 10%;
+}
+
+.profile-pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;         /* makes it round */
+  border: 5px solid #f2f2f2;     /* frame color and thickness */
+  object-fit: cover;          /* ensures image fills frame nicely */
+}
+
+
 
 body {
     margin: 0;
@@ -33,7 +55,7 @@ body {
     flex: 1 1 500px;
     background: white;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 6px;
     box-sizing: border-box;
 }
@@ -44,6 +66,7 @@ body {
 
 .column:last-child {
   flex: 1; /* take remaining space */
+  min-width: 400px;
 }
 
 
@@ -82,5 +105,11 @@ p {
     margin: 25px auto;
     line-height: 1.6;
     box-sizing: border-box;
+}
+
+/* Subclass for dark gray version */
+.fancy-paragraph.profile-bubble {
+  background-color: #dddddd;
+  color: black;
 }
 
