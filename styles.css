@@ -38,6 +38,15 @@ body {
     box-sizing: border-box;
 }
 
+.column:first-child {
+  flex: 0 0 450px; /* fixed 300px width */
+}
+
+.column:last-child {
+  flex: 1; /* take remaining space */
+}
+
+
 .section {
     margin-bottom: 30px;
 }
