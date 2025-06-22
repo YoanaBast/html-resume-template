@@ -66,6 +66,7 @@ body {
 
 .column:last-child {
   flex: 1; /* take remaining space */
+  min-width: 400px;
 }
 
 
