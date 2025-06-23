@@ -49,6 +49,8 @@ body {
     margin: 40px auto;
     padding: 0 20px;
     box-sizing: border-box;
+    gap: 1px;
+
 }
 
 .column {
