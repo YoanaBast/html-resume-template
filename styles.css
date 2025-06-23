@@ -110,7 +110,7 @@ p {
 
 /* Subclass for dark gray version */
 .fancy-paragraph.profile-bubble {
-  background-image: url('https://raw.githubusercontent.com/YoanaBast/my-cv/main/gray_bg.jpg');
+  background-image: url('https://raw.githubusercontent.com/YoanaBast/my-cv/main/gray_bg.jpg?v=2');
   background-size: cover;
   background-position: center;
   color: black; /* or white if the background is dark */
