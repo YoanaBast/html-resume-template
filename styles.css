@@ -1,3 +1,5 @@
+/* HEADERS*/
+
 h1 {
   font-family: 'Comfortaa', sans-serif;
     color: gray;
@@ -11,8 +13,10 @@ h2 {
     margin-top: 0;
     font-size: 28px;
     border-bottom: 2px solid #ccc; /* this is the cool line */
-    padding-bottom: 5px; /* this is the cool line */
+    padding-bottom: 5px;
 }
+
+/* NAMECARD*/
 
 .profile-info {
   display: flex;
@@ -30,17 +34,20 @@ h2 {
   width: 150px;
   border-radius: 50%;         /* makes it round */
   border: 5px solid #f2f2f2;     /* frame color and thickness */
-  object-fit: cover;          /* ensures image fills frame nicely */
+  object-fit: cover;          /* for image to fill frame nicely */
 }
 
-
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
+/* Subclass for dark gray version */
+.fancy-paragraph.profile-bubble {
+  background-image: url('https://raw.githubusercontent.com/YoanaBast/my-cv/main/images/tech_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
 }
 
+/* COLUMNS*/
 .columns {
   display: grid;
   grid-template-columns: minmax(500px, 1fr) minmax(400px, 2fr);
@@ -56,6 +63,7 @@ body {
   padding: 20px;
   border-radius: 6px;
   box-sizing: border-box;
+  min-width: auto !important;
 }
 
 @media (max-width: 900px) {
@@ -64,12 +72,16 @@ body {
   }
 
   .column {
-    min-width: auto !important; /* allow shrinking on small screens */
+     /* allow shrinking on small screens */ /* THIS IS PART OF MEDIA STOP REMOVING THE INDENT AAA!!!! */
   }
 }
 
-
-
+/* MAIN & ELEMENTS*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
 
 .section {
     margin-bottom: 30px;
@@ -108,12 +120,3 @@ p {
     box-sizing: border-box;
 }
 
-/* Subclass for dark gray version */
-.fancy-paragraph.profile-bubble {
-  background-image: url('https://raw.githubusercontent.com/YoanaBast/my-cv/main/images/tech_bg.jpg');
-  background-size: cover;
-  background-position: center;
-  color: black; /* or white if the background is dark */
-  border-radius: 10px;
-  padding: 15px;
-}
