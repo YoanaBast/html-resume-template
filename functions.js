@@ -10,3 +10,7 @@ function syncMinWidth() {
 // Run on load and on window resize
 window.addEventListener('load', syncMinWidth);
 window.addEventListener('resize', syncMinWidth);
+
+const text = document.getElementById('glow-text');
+const letters = [...text.querySelectorAll('span')];
+

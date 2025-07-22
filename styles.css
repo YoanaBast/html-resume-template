@@ -120,3 +120,8 @@ p {
     box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #f0e68c;
+}
