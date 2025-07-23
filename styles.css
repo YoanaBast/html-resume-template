@@ -150,13 +150,15 @@ p {
 html, body {
   height: 100%;
   margin: 0;
-  background-image: url('https://github.com/YoanaBast/html-resume-template/blob/main/images/bg_tech.png?raw=true');
+  background-color: #a2c3c3;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'><rect width='160' height='160' fill='%23a2c3c3'/><circle cx='30' cy='30' r='4' fill='%23003d3d' fill-opacity='0.6'/><rect x='75' y='37' width='6' height='6' fill='%23003d3d' fill-opacity='0.5'/><path d='M130 60 L134 66 L126 66 Z' fill='%23003d3d' fill-opacity='0.6'/><circle cx='50' cy='110' r='5' fill='%23003d3d' fill-opacity='0.5'/><rect x='97' y='127' width='5' height='5' fill='%23003d3d' fill-opacity='0.5'/><line x1='30' y1='30' x2='78' y2='40' stroke='%23003d3d' stroke-width='1.5' stroke-opacity='0.3'/><line x1='78' y1='40' x2='132' y2='63' stroke='%23003d3d' stroke-width='1.5' stroke-opacity='0.2'/><line x1='50' y1='110' x2='99' y2='130' stroke='%23003d3d' stroke-width='1.5' stroke-opacity='0.25'/><line x1='78' y1='40' x2='50' y2='110' stroke='%23003d3d' stroke-width='1' stroke-opacity='0.15'/></svg>");
   background-repeat: repeat;
-  background-size: cover; /* or 'contain' depending on how you want it to behave */
-  background-position: center;
-  /* fallback background color */
-  background-color: #001f4d;
+  background-size: 160px 160px;
 }
+
+
+
+
 
 .page-background {
   background-color: #d0e1e1;  /* dark blue */
