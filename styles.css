@@ -25,7 +25,7 @@ h2 {
 
 .profile-info img {
   height: 220px;
-  margin-right: 10px;
+  margin-right: 0px;
   border-radius: 10%;
 }
 
@@ -44,22 +44,24 @@ h2 {
   background-position: center;
   color: black;
   border-radius: 10px;
-  padding: 15px;
+  padding: 10px;
+  border: 5px solid #92b9b9; /* subtle light black border */
 }
+
 
 /* COLUMNS*/
 .columns {
   display: grid;
   grid-template-columns: minmax(500px, 1fr) minmax(400px, 2fr);
   gap: 20px;
-  background-color: #e0ebeb;
+  background-color: #d0e1e1;
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
 .column {
-  background: #e0ebeb;
+  background: #d0e1e1;
   padding: 20px;
   border-radius: 6px;
   box-sizing: border-box;
@@ -127,15 +129,15 @@ p {
 .fancy-paragraph-namecard {
     background:
     linear-gradient(to right,
-        #324e4e 0%,
-        #3c5d5d 35%,
-        #3c5d5d 65%,
-        #324e4e 100%);
+        #c1d7d7 0%,
+        #d0e1e1 35%,
+        #d0e1e1 65%,
+        #c1d7d7 100%);
     linear-gradient(to bottom,
-        #324e4e 0%,
-        #3c5d5d 35%,
-        #3c5d5d 65%,
-        #324e4e 100%);
+        #c1d7d7 0%,
+        #d0e1e1 35%,
+        #d0e1e1 65%,
+        #c1d7d7 100%);
     border-radius: 10px;
     padding: 15px;
     max-width: 100%;
@@ -157,7 +159,7 @@ html, body {
 }
 
 .page-background {
-  background-color: #e0ebeb;  /* dark blue */
+  background-color: #d0e1e1;  /* dark blue */
   padding: 40px;
   border-radius: 10px;
   max-width: 1200px;  /* or whatever width you want */
