@@ -2,9 +2,9 @@
 
 h1 {
   font-family: 'Comfortaa', sans-serif;
-    color: #5a8c8c;
+    color: #466d6d;
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 70px;
 
 }
 
@@ -125,11 +125,17 @@ p {
 }
 
 .fancy-paragraph-namecard {
-    background: linear-gradient(to bottom,
-        #466d6d 0%,
+    background:
+    linear-gradient(to right,
+        #324e4e 0%,
         #3c5d5d 35%,
         #3c5d5d 65%,
-        #466d6d 100%);
+        #324e4e 100%);
+    linear-gradient(to bottom,
+        #324e4e 0%,
+        #3c5d5d 35%,
+        #3c5d5d 65%,
+        #324e4e 100%);
     border-radius: 10px;
     padding: 15px;
     max-width: 100%;
