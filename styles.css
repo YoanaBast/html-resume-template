@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-    color: gray;
+    color: #3c5d5d;
     margin-top: 0;
     font-size: 28px;
     border-bottom: 2px solid #ccc; /* this is the cool line */
@@ -52,14 +52,14 @@ h2 {
   display: grid;
   grid-template-columns: minmax(500px, 1fr) minmax(400px, 2fr);
   gap: 20px;
-  background-color: white;
+  background-color: #e0ebeb;
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
 .column {
-  background: white;
+  background: #e0ebeb;
   padding: 20px;
   border-radius: 6px;
   box-sizing: border-box;
@@ -111,7 +111,7 @@ p {
 }
 
 .fancy-paragraph {
-    background-color: #f2f2f2;
+    background-color: #c1d7d7;
     border-radius: 10px;
     padding: 15px;
     max-width: 100%;
@@ -123,5 +123,19 @@ p {
 html, body {
   height: 100%;
   margin: 0;
-  background-color: #f0e68c;
+  background-image: url('https://github.com/YoanaBast/html-resume-template/blob/main/images/bg_tech.png?raw=true');
+  background-repeat: no-repeat;
+  background-size: cover; /* or 'contain' depending on how you want it to behave */
+  background-position: center;
+  /* fallback background color */
+  background-color: #001f4d;
+}
+
+.page-background {
+  background-color: #e0ebeb;  /* dark blue */
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 1200px;  /* or whatever width you want */
+  margin: 20px auto;  /* center it horizontally */
+  box-sizing: border-box;
 }
