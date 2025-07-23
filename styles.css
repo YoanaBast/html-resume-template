@@ -2,7 +2,7 @@
 
 h1 {
   font-family: 'Comfortaa', sans-serif;
-    color: gray;
+    color: #5a8c8c;
     margin-top: 50px;
     font-size: 50px;
 
@@ -33,13 +33,13 @@ h2 {
   height: 150px;
   width: 150px;
   border-radius: 50%;         /* makes it round */
-  border: 5px solid #f2f2f2;     /* frame color and thickness */
+  border: 5px solid #92b9b9;     /* frame color and thickness */
   object-fit: cover;          /* for image to fill frame nicely */
 }
 
 /* Subclass for dark gray version */
 .fancy-paragraph.profile-bubble {
-  background-image: url('https://raw.githubusercontent.com/YoanaBast/my-cv/main/images/tech_bg.jpg');
+  background-image: url('https://raw.githubusercontent.com/YoanaBast/html-resume-template/main/images/namecard.png?raw=true');
   background-size: cover;
   background-position: center;
   color: black;
@@ -111,7 +111,11 @@ p {
 }
 
 .fancy-paragraph {
-    background-color: #c1d7d7;
+    background: linear-gradient(to bottom,
+        #a2c3c3 0%,       /* slightly darker at top */
+        #c1d7d7 20%,      /* lightest in the middle */
+        #c1d7d7 80%,      /* continue light */
+        #a2c3c3 100%);    /* slightly darker at bottom */
     border-radius: 10px;
     padding: 15px;
     max-width: 100%;
@@ -120,11 +124,13 @@ p {
     box-sizing: border-box;
 }
 
+
+
 html, body {
   height: 100%;
   margin: 0;
   background-image: url('https://github.com/YoanaBast/html-resume-template/blob/main/images/bg_tech.png?raw=true');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover; /* or 'contain' depending on how you want it to behave */
   background-position: center;
   /* fallback background color */
