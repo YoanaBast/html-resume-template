@@ -124,6 +124,19 @@ p {
     box-sizing: border-box;
 }
 
+.fancy-paragraph-namecard {
+    background: linear-gradient(to bottom,
+        #466d6d 0%,
+        #3c5d5d 35%,
+        #3c5d5d 65%,
+        #466d6d 100%);
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 100%;
+    margin: 25px auto;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
 
 
 html, body {
