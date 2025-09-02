@@ -56,14 +56,14 @@ h2 {
   display: grid;
   grid-template-columns: minmax(500px, 1fr) minmax(400px, 2fr);
   gap: 20px;
-  background-color: #d0e1e1;
+  background-color: #e6f7ff;
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
 .column {
-  background: #d0e1e1;
+  background: #e6f7ff;
   padding: 20px;
   border-radius: 6px;
   box-sizing: border-box;
@@ -84,7 +84,7 @@ h2 {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
+    background: #e6f7ff;
 }
 
 .section {
@@ -152,7 +152,7 @@ p {
 html, body {
   height: 100%;
   margin: 0;
-  background-color: #a2c3c3;
+  background-color: #e6f7ff;
   background-image: url("https://raw.githubusercontent.com/YoanaBast/html-resume-template/main/images/bg_tech.png");
   background-repeat: repeat;
   background-size: cover; /* or cover, or auto, depending on your layout */
@@ -163,7 +163,7 @@ html, body {
 
 
 .page-background {
-  background-color: #d0e1e1;  /* dark blue */
+  background-color: #e6f7ff;  /* dark blue */
   padding: 40px;
   border-radius: 10px;
   max-width: 1200px;  /* or whatever width you want */
