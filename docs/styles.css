@@ -2,17 +2,17 @@
 
 h1 {
   font-family: 'Comfortaa', sans-serif;
-    color: #466d6d;
+    color: #85a3e0;
     margin-top: 50px;
     font-size: 70px;
 
 }
 
 h2 {
-    color: #3c5d5d;
+    color: #85a3e0;
     margin-top: 0;
     font-size: 28px;
-    border-bottom: 2px solid #ccc; /* this is the cool line */
+    border-bottom: 2px solid #6ca6cd; /* this is the cool line */
     padding-bottom: 5px;
 }
 
@@ -33,20 +33,20 @@ h2 {
   height: 150px;
   width: 145px ;
   border-radius: 50%;  /* makes it round */
-  border: 5px solid rgba(146, 185, 185, 0.7);  /* subtle, semi-transparent border */
+  border: 5px solid rgba(112, 148, 219, 0.3);  /* subtle, semi-transparent border */
   object-fit: cover;  /* ensures image fills the frame */
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);  /* soft inner glow */
 }
 
 /* Subclass for dark gray version */
 .fancy-paragraph.profile-bubble {
-  background-image: url('https://raw.githubusercontent.com/YoanaBast/html-resume-template/main/images/namecard_2.png?raw=true');
+  background-image: linear-gradient(rgba(0, 0, 255, 0.15), rgba(0, 0, 255, 0.15)), url('https://raw.githubusercontent.com/YoanaBast/html-resume-template/main/images/namecard_2.png?raw=true');
   background-size: cover;
   background-position: center;
   color: black;
   border-radius: 10px;
   padding: 10px;
-  border: 5px solid rgba(146, 185, 185, 0.7); /* slightly transparent border */
+  border: 5px solid rgba(112, 148, 219, 0.3); /* slightly transparent border */
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); /* soft inner shadow */
 }
 
@@ -116,10 +116,10 @@ p {
 
 .fancy-paragraph {
     background: linear-gradient(to bottom,
-        #a2c3c3 0%,       /* slightly darker at top */
-        #c1d7d7 20%,      /* lightest in the middle */
-        #c1d7d7 80%,      /* continue light */
-        #a2c3c3 100%);    /* slightly darker at bottom */
+        #d6e0f5 0%,       /* slightly darker at top */
+        #ebf0fa 20%,      /* lightest in the middle */
+        #ebf0fa 80%,      /* continue light */
+        #d6e0f5 100%);    /* slightly darker at bottom */
     border-radius: 10px;
     padding: 15px;
     max-width: 100%;
@@ -131,15 +131,15 @@ p {
 .fancy-paragraph-namecard {
     background:
     linear-gradient(to right,
-        #c1d7d7 0%,
-        #d0e1e1 35%,
-        #d0e1e1 65%,
-        #c1d7d7 100%);
+        #d6e0f5 0%,
+        #ebf0fa 35%,
+        #ebf0fa 65%,
+        #d6e0f5 100%);
     linear-gradient(to bottom,
-        #c1d7d7 0%,
-        #d0e1e1 35%,
-        #d0e1e1 65%,
-        #c1d7d7 100%);
+        #d6e0f5 0%,
+        #ebf0fa 35%,
+        #ebf0fa 65%,
+        #d6e0f5 100%);
     border-radius: 10px;
     padding: 15px;
     max-width: 100%;
