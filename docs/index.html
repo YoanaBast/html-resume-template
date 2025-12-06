@@ -1,114 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-    <meta charset="UTF-8" />
-    <title>YOANA BASTIYANOVA - CV</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/styles2.css" />
+    <title>Yoana Bastiyanova</title>
 </head>
+
 <body>
+    <div class="grid">
+        <div class="namecard">
+                <h1>Yoana Bastiyanova</h1>
 
-  <div class="page-background">
-    <div class="columns">
-<!-- first col -->
-        <div class="column left">
-
-<!-- Namecard -->
-             <br><br>
-            <h1 style="margin: 0;">Yoana Bastiyanova</h1>
-
-                <div class="profile-info fancy-paragraph profile-bubble">
-                  <img src="https://raw.githubusercontent.com/YoanaBast/my-cv/main/images/prof_pic.jpg" alt="profile_pic" class="profile-pic" />
-                    <ul>
-                      <p class="fancy-paragraph-namecard" style="font-size: 14px;color: #466d6d"><b>+359 988 928 243</b></p>
-                      <p class="fancy-paragraph-namecard" style="font-size: 14px; color: #466d6d"><b>yoana.bastiyanova@gmail.com</b></p>
-                      <p class="fancy-paragraph-namecard" style="font-size: 14px;color: #466d6d"><b>Varna, Bulgaria</b></p>
-                    </ul>
+            <div class="profile-features">
+                <div class="pic-wrap">
+                    <img src="../static/images/prof_pic.jpg" alt="profile_pic" class="profile-pic" />
                 </div>
-            <br>
 
-<!-- About me -->
-            <div class="section">
-                <h2>Summary</h2>
-                <p class="fancy-paragraph">
+                <div class="features-right">
+                    <div class="feature-item">
+                        <img src="../static/images/phone.png" alt="Item 1" class="item1" />
+                        <p>+359 988 928 243</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <img src="../static/images/mail.png" alt="Item 2" class="item2" />
+                        <p>yoana.bastiyanova@gmail.com</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <img src="../static/images/loc.png" alt="Item 3" class="item3" />
+                        <p>Varna, Bulgaria</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <img src="../static/images/github.png" alt="Item 4" class="item4" />
+                    <p><a href="https://github.com/YoanaBast" target="_blank" rel="noopener noreferrer">github.com/YoanaBast</a></p>
+                </div>
+                <div class="feature-item">
+                    <img src="../static/images/in.png" alt="Item 5" class="item5" />
+                    <p>
+                      <a href="https://www.linkedin.com/in/yoana-bastiyanova" target="_blank" rel="noopener noreferrer">
+                        linkedin.com/in/yoana-bastiyanova
+                      </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="scrollcard">
+            <nav class="nav">
+                <div class="nav-links" id="navLinks">
+                  <a href="#" data-target="about">About</a>
+                  <a href="#" data-target="experience">Experience</a>
+                  <a href="#" data-target="education">Education</a>
+                  <a href="#" data-target="certificates">Certificates</a>
+                  <a href="#" data-target="languages">Languages</a>
+                  <a href="#" data-target="Projects">Projects</a>
+                </div>
+            </nav>
+
+          <div class="scrollcard-content">
+            <div id="about" class="tab-content">
+                <p class="paragraph">
                     Passionate about technology and programming, with practical experience in IT support and administration.
                     Skilled at troubleshooting, learning new tools quickly, and working effectively in team environments.
                     Motivated to develop strong coding skills and contribute to software projects with attention to detail and problem-solving.
                 </p>
             </div>
 
-<!-- Education -->
-            <div class="section">
-                <h2>Education</h2>
-                <div class="fancy-paragraph">
-
-<!-- SoftUni -->
-                    <p class="education-degree">
-                        Software Engineering with Python <span class="date">2024 – Present</span>
-                    </p>
-                    <p class="education-university">
-                        <a href="https://softuni.bg/" target="_blank" rel="noopener noreferrer">
-                                   Software University (SoftUni), Sofia
-                        </a>
-                    </p>
-
-                </div>
-
-<!-- VTU -->
-                <div class="fancy-paragraph">
-                    <p class="education-degree">
-                        Bachelor’s Degree in Applied Linguistics:<br>English and Japanese <span class="date">2019 – 2023</span>
-                    </p>
-                    <p class="education-university">
-                        <a href="https://www.uni-vt.bg/eng/" target="_blank" rel="noopener noreferrer">
-                            St. Cyril and St. Methodius University of Veliko Tarnovo
-                        </a>
-                    </p>
-                </div>
-<!-- Languages -->
-
-                <h2>Languages</h2>
-               <p class="fancy-paragraph">
-                    English - Fluent
-                </p>
-                <p class="fancy-paragraph">
-                    Bulgarian - Fluent
-                </p>
-                <p class="fancy-paragraph">
-                    Japanese - Conversational
-                </p>
-
-            </div>
-        </div>
-
-<!-- second col -->
-        <div class="column right">
-            <div class="section">
-                <br><br>
-<!-- Exp -->
-                <h2>Experience</h2>
-
-<!-- HCL -->
-                <div class="fancy-paragraph">
-                    <p class="job-title">Senior Help Desk Analyst & IR <span class="date">Jul 2025 – Present</span></p>
+            <div id="experience" class="tab-content">
+        <!-- HCL -->
+                <div class="paragraph">
                     <p class="company-name">
                       <a href="https://www.hcltech.com/geo-presence/bulgaria" target="_blank" rel="noopener noreferrer">
-                        C3i Solutions (HCLTech)
-                      </a>
+                        C3i Solutions (HCLTech)</a>
                     </p>
+                    <p class="job-title">Senior Help Desk Analyst & IR <span class="date">Jul 2025 – Present</span></p>
                     <ul>
                         <li>Assist L1 technicians, in addition to the responsibilities listed below.</li>
-
                     </ul>
+
                     <p class="job-title">Help Desk Analyst & Incident Reassignment <span class="date">Sep 2022 – Present</span></p>
-                    <p class="company-name">
-                      <a href="https://www.hcltech.com/geo-presence/bulgaria" target="_blank" rel="noopener noreferrer">
-                        C3i Solutions (HCLTech)
-                      </a>
-                    </p>
-
-
                     <ul>
                         <li>Provide first-line support for Azure Active Directory, Multi-Factor Authentication (MFA), Intune, Ivanti (MobileIron), Cisco, SAP, ServiceNow, Amazon services, printers, and O365 including SharePoint, network drives, and servers.</li>
                         <li>Manage user access and basic troubleshooting across these platforms to maintain smooth operations.</li>
@@ -117,16 +96,14 @@
                     </ul>
                 </div>
 
-<!-- JE - Menu -->
-                <div class="fancy-paragraph">
-                    <p class="job-title">Menu Typist for Takeaway (Just Eat) <span class="date">May 2022 - Aug 2022</span></p>
+        <!-- JE  -->
+                <div class="paragraph">
                     <p class="company-name">
                       <a href="https://foundever.com/" target="_blank" rel="noopener noreferrer">
                         Sitel Group (Foundever)
                       </a>
                     </p>
-
-
+                    <p class="job-title">Menu Typist for Takeaway (Just Eat) <span class="date">May 2022 - Aug 2022</span></p>
                     <ul>
                         <li>Created and maintained restaurant menus using in-house software solution, promptly troubleshooting any issues.</li>
                         <li>Managed deals, calorie counts, and allergen information with accuracy and attention to detail.</li>
@@ -134,15 +111,8 @@
                     </ul>
                 </div>
 
-<!-- JE - Unified -->
-                <div class="fancy-paragraph">
-
+                <div class="paragraph">
                     <p class="job-title">Customer Care Representative (Just Eat) <span class="date">Jul 2021 - May 2022</span></p>
-                    <p class="company-name">
-                      <a href="https://foundever.com/" target="_blank" rel="noopener noreferrer">
-                        Sitel Group (Foundever)
-                      </a>
-                    </p>
                     <ul>
                         <li>Served as the first point of contact for customers and restaurant partners, delivering excellent customer service.</li>
                         <li>Monitored orders, payments, and delivery drivers in real time to ensure smooth operations.</li>
@@ -151,31 +121,124 @@
                 </div>
 
 <!-- Nedelya -->
-                <div class="fancy-paragraph">
-                    <p class="job-title">Barista & Waitress <span class="date">Jul 2017 - Jul 2021</span></p>
+                <div class="paragraph">
                     <p class="company-name">
                       <a href="https://nedelya.com/" target="_blank" rel="noopener noreferrer">
                         Nedelya The Cake Company
                       </a>
                     </p>
+                    <p class="job-title">Barista & Waitress <span class="date">Jul 2017 - Jul 2021</span></p>
                     <ul>
                         <li>Started at age 16 — gained early experience, strong work ethic, and essential workplace and fundamental professional skills.</li>
                         <li>Prepared customer orders with attention to detail, food safety standards, and quality.</li>
                         <li>Delivered excellent customer service through strong communication, problem-solving, and interpersonal skills, while developing patience, teamwork, and time management.</li>
                     </ul>
                 </div>
-<!-- Certificates -->
-                <h2>Certificates</h2>
-                <p class="fancy-paragraph">
-                    <a href="https://softuni.bg/Certificates/Details/245285/7a00a3b5" target="_blank">Python Advanced</a>
-                </p>
-                <a href="test.html" target="_blank">Test</a>
+            </div>
 
+            <div id="education" class="tab-content">
+               <div class=paragraph">
+            <!-- SoftUni -->
+                    <p class="education-university">
+                        <a href="https://softuni.bg/" target="_blank" rel="noopener noreferrer">
+                        Software University (SoftUni), Sofia</a>
+                    </p>
+                     <p class="education-degree">
+                        Software Engineering with Python <span class="date">2024 – Present</span>
+                    </p>
+                </div>
+                <br>
+            <!-- VTU -->
+                <div class="paragraph">
+                    <p class="education-university">
+                        <a href="https://www.uni-vt.bg/eng/" target="_blank" rel="noopener noreferrer">
+                        St. Cyril and St. Methodius University of Veliko Tarnovo</a>
+                    </p>
+                    <p class="education-degree">
+                        Bachelor’s Degree in Applied Linguistics:<br>English and Japanese <span class="date">2019 – 2023</span>
+                    </p>
+                </div>
+            </div>
+
+
+            <div id="certificates" class="tab-content">
+              <div class="gallery-container">
+                <span class="arrow left">&#10094;</span>
+                <div class="gallery-slide-wrapper">
+                    <div class="gallery-slide">
+                      <div class="slide-item">
+                        <h3><a href="https://softuni.bg/certificates/details/245285/7a00a3b5" target="_blank">
+                        Python Advanced</a></h3>
+                        <img src="../static/images/PythonAdvanced.jpeg" class="gallery-img" />
+                      </div>
+
+                      <div class="slide-item">
+                        <h3><a href="https://softuni.bg/certificates/details/248235/c523ac56" target="_blank">
+                            Python OOP</a></h3>
+                        <img src="../static/images/PythonOOP.jpeg" class="gallery-img" />
+                      </div>
+
+                      <div class="slide-item">
+                        <h3><a href="https://softuni.bg/certificates/details/251067/a1ceb812" target="_blank">
+                            PostgreSQL</a></h3>
+                        <img src="../static/images/PostgreSQL.jpeg" class="gallery-img" />
+                      </div>
+
+                      <div class="slide-item">
+                        <h3><a href="https://softuni.bg/certificates/details/253394/e7eead64" target="_blank">
+                            Python ORM</a></h3>
+                        <img src="../static/images/PythonORM.jpeg" class="gallery-img" />
+                      </div>
+                    </div>
+                </div>
+                <span class="arrow right">&#10095;</span>
+              </div>
+
+              <div class="gallery-dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+
+              </div>
+            </div>
+
+
+            <div id="languages" class="tab-content">
+                <h2>Human:</h2>
+                <p class="paragraph">
+                    English - Fluent
+                </p>
+                <p class="paragraph">
+                    Bulgarian - Fluent
+                </p>
+                <p class="paragraph">
+                    Japanese - Conversational
+                </p>
+
+                <h2>01010000 01000011:</h2>
+                <p class="paragraph">
+                    Python - OOP, Django
+                </p>
+                <p class="paragraph">
+                    HTML
+                </p>
+                <p class="paragraph">
+                    CSS
+                </p>
 
             </div>
+
+            <div id="Projects" class="tab-content">
+                projects
+            </div>
+
+          </div>
         </div>
 
-    </div>
+    <script src="../static/js/navigation.js"></script>
+    <script src="../static/js/gallery.js"></script>
+
 
   </div>
 </body>
