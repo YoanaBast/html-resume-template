@@ -211,6 +211,16 @@
   }
 }
 
+.lang {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.9rem;
+}
+
+.job-title{
+  font-weight: 700;
+
+}
+
 /* start of cool URL  */
 
 .company-name a,
@@ -252,9 +262,7 @@
 }
 /* end of cool URL  */
 
-.job-title{
-  font-weight: 700;
-}
+
 
 
 /*  GALLERY   */
