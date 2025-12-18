@@ -1,6 +1,6 @@
 ## CV
 
-📄 [View My Resume](https://yoanabast.github.io/html-resume-template/)
+📄 [View My Resume](https://yoanabast.github.io/resume/)
 
 ## License
 
