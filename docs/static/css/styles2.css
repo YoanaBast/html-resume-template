@@ -88,6 +88,9 @@ body {
   align-items: flex-start;
   gap: 10px;
   flex-wrap: nowrap; /* never wrap first 3 items */
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+   padding-top: 20px
 }
 
 /* Stack first 3 features vertically */
