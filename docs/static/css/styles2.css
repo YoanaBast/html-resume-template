@@ -101,10 +101,18 @@ body {
 /* Each feature item: image + text */
 .feature-item {
   display: flex;
-  align-items: center;
+  align-items: center;  /* vertically centers image and text */
   gap: 6px;
   font-family: 'Zain', monospace;
+  color: #666666;
+}
 
+/* Make all text inside stay on the same line as image */
+.feature-item p{
+  font-size:1rem !important;
+  line-height:1 !important;
+  margin: 0;            /* remove default paragraph margin */
+  display: inline-block; /* allows text to stay next to image */
 }
 
 .feature-item a{
@@ -205,7 +213,7 @@ body {
 
 .scrollcard {
   position: relative;
-  padding-top: 60px;
+  padding-top: 15px;
   font-family: 'Inter', monospace;
 
 }
