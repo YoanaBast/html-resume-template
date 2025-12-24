@@ -294,7 +294,19 @@ body {
 
 
 
+.scrollcard-content {
+    padding: 20px;
+}
 
+/* Add space between the list items */
+.scrollcard-content ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.scrollcard-content ul li {
+    margin-bottom: 15px; /* Adjust this value for desired space */
+}
 
 
 
